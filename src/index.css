@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgb(35, 60, 83);
+    padding: 30px 50px;
+}
+button{
+    padding: 10px 24px;
+    font-size: 20px;
+    background-color: teal;
+    border: none;
+    color: aliceblue;
+    display: block;
+    cursor: pointer;
+}
+.disable{
+    background-color: black;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.count{
+    font-size: 30px;
+    color: aliceblue;
+    margin: 10px 0;
+}
+.countErr, .minusErr{
+    color: red;
+    margin-top: 5px;
+    font-size: 16px;
+}
+input{
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin: 50px 0;
+    outline: none;
+}
+.passBtn{
+    display: inline-block;
+    margin-left: 10px;
+}
